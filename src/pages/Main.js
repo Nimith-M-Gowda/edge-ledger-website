@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { FaChevronRight, FaBookReader, FaPencilAlt } from "react-icons/fa";
 import { BsBank2 } from "react-icons/bs";
+import CallbackForm from "../components/CallbackForm";
 import "../styles/Main.css";
 
 import cases1 from "../utils/images/cases/cases1.jpg";
@@ -149,6 +150,14 @@ function Main(props) {
                 <p>Marketing Head</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div id="contact-section">
+          <div className="contact-logo">
+            <div>logo</div>
+          </div>
+          <div className="contact-form">
+            <CallbackForm />
           </div>
         </div>
       </div>
