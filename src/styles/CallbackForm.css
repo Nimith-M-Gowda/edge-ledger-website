@@ -2,6 +2,7 @@
     padding: 0;
     margin:0;
     font-size: 10px;
+    box-sizing: border-box;
 }
 
 body{
@@ -36,6 +37,7 @@ gap:5%
     border: none;
     padding:1rem;
     font-size:1.5rem;
+
 }
 
 .form-container button{
@@ -57,7 +59,10 @@ background:#3BAE56;
 
 /* media query */
 /* phone */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+
+
+}
 
 /* ipad */
 @media screen and (min-width:769px) and (max-width:992px) {}
