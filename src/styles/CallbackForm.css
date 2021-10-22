@@ -47,9 +47,11 @@ gap:5%
     background:#28A745;
     color:white;
     border:none;
+    transition: all 1s;
 }
 .form-container button:hover{
 background:#3BAE56;
+transform:scale(1.115)
 }
 
 .error{

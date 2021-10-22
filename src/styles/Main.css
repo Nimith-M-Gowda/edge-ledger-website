@@ -63,6 +63,7 @@
     border-radius: 5px;
     font-size: 2rem;
     z-index: 2;
+    transition: all 1s;
 }
 
 .btn .btn-icon,
@@ -73,6 +74,7 @@
 
 .btn:hover{
     opacity: 0.7;
+    transform:scale(1.15)
 }
 
 #icon-section{
@@ -191,10 +193,12 @@
 #cases-section .cases-list img{
     padding:0rem 0.5rem;
     width:25%;
+    transition: all 1s;
 }
 
 #cases-section .cases-list img:hover{
 opacity: 0.6;
+transform:scale(1.15)
 }
 
 #blog-section{
@@ -330,10 +334,7 @@ gap:2%;
         height: 100%;
         display:flex;
         flex-direction: column;
-    }
-
-    .container #icon-section .icon-section-container:hover {
-        background:red
+        transition: all 1s;
     }
 
     .container #portfolio-section{

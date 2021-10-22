@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     font-size:10px;
+
 }
 
 #navbar {
@@ -74,11 +75,12 @@ ul li {
     align-items:center;
     justify-content:center;
     font-size:1.75rem;
+    transition: all 1s;
 }
 ul li:hover {
     border-bottom: 0.5rem solid green;
+    transform: scale(1.1);
 }
-
 
 
 /* media queries */
