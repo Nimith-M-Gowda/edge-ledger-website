@@ -148,3 +148,11 @@ ul li:hover{
     }
 
 }
+
+@media screen and (orientation:landscape)
+and (min-device-height: 319px)
+and (max-device-height: 480px) {
+    #navbar {
+     padding-top: 1rem;
+    }
+}

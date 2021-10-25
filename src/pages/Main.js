@@ -59,9 +59,7 @@ function Main(props) {
           </div>
         </div>
         <div id="portfolio-section">
-          <div className="portfolio-logo-container">
-            {/* <img src="../utils/images/home/people.jpg" /> */}
-          </div>
+          <div className="portfolio-logo-container"></div>
           <div className="portfolio-desc-container">
             <h3>What you are looking for</h3>
             <h1>We provide bespoke solutions</h1>
@@ -106,9 +104,7 @@ function Main(props) {
             </p>
             <h2 className="btn">Read Your Blog</h2>
           </div>
-          <div className="blog-logo-container">
-            {/* <img src="../utils/images/home/people.jpg" /> */}
-          </div>
+          <div className="blog-logo-container"></div>
         </div>
         <div id="team-section">
           <h3>Who we are</h3>

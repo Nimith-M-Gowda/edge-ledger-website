@@ -458,8 +458,49 @@ gap:2%;
 }
 
 
+/* phone */
+/* Landscape */
+@media only screen
+  and (min-height:320px)
+  and (max-height:430px)
+  and (orientation: landscape) {
+
+      #intro-section{
+          height:100vh;
+      }
+      .container #icon-section{
+          height:70%;
+      }
+
+      .container #portfolio-section{
+          height:100%;
+      }
+
+      .portfolio-desc-container .btn{
+          width:40%;
+      }
+      .container #cases-section{
+          height:auto;
+      }
+      .container #blog-section{
+          height:100%;
+      }
+
+      #blog-section .btn{
+          width:40%;
+      }
+      .container #team-section{
+        height:auto;
+    }
+    .container #contact-section{
+        height:100%;
+    }
+
+}
+
+
 /* ipad */
-@media screen and (min-width:769px) and (max-width:992px) {
+@media screen and (min-width:769px) and (max-width:992px) and (min-height:1000px) {
 
 .container .intro-section{
     height: 100%;
@@ -524,3 +565,5 @@ gap:2%;
     }
 
 }
+
+
