@@ -22,7 +22,7 @@ function Main(props) {
     <div id="main">
       <div className="container">
         <Navbar className="navbar" />
-        <div className="intro-section">
+        <div id="intro-section" className="intro-section">
           <p className="intro-title">The Sky Is The Limit</p>
           <p className="intro-description">
             We provide world class financial assistance
